@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://d0oeve2fkfumm"]
+[gd_scene load_steps=7 format=4 uid="uid://d0oeve2fkfumm"]
 
 [ext_resource type="Script" uid="uid://stumgn6lv5uk" path="res://player.gd" id="1_h2yge"]
 [ext_resource type="Texture2D" uid="uid://cabq1y817x7jj" path="res://icon.svg" id="2_1bvp3"]
@@ -262,6 +262,7 @@ drag_horizontal_enabled = true
 drag_vertical_enabled = true
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(0.99999994, 0)
 scale = Vector2(0.2, 0.2)
-tile_map_data = PackedByteArray(0, 0, 255, 255, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+tile_map_data = PackedByteArray("AAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAHAP//AAAAAAAAAAAIAP//AAAAAAAAAAAJAP7/AAAAAAAAAAAKAP3/AAAAAAAAAAALAPz/AAAAAAAAAAAMAPz/AAAAAAAAAAANAPz/AAAAAAAAAAASAP3/AAAAAAAAAAARAPz/AAAAAAAAAAAVAP7/AAAAAAAAAAAWAP7/AAAAAAAAAAAXAP7/AAAAAAAAAAAZAP7/AAAAAAAAAAAbAP7/AAAAAAAAAAAPAPj/AAAAAAAAAAAgAP//AAAAAAAAAAAgAPv/AAAAAAAAAAAgAPf/AAAAAAAAAAAiAPX/AAAAAAAAAAAjAP3/AAAAAAAAAAAdAPn/AAAAAAAAAAAqAPn/AAAAAAAAAAAyAPr/AAAAAAAAAAA4AP3/AAAAAAAAAAA5AP3/AAAAAAAAAAA7AP3/AAAAAAAAAAA6AP3/AAAAAAAAAAA8AP3/AAAAAAAAAAA=")
 tile_set = SubResource("TileSet_lquwl")
