@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://15h12ws6jb4"]
+
+[ext_resource type="Script" uid="uid://wb88vio3ki1c" path="res://canvas_layer.gd" id="1_ots34"]
+[ext_resource type="Texture2D" uid="uid://cd3asy1bw551d" path="res://sadPotato.webp" id="2_qn1rc"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_ots34")
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -162.0
+offset_top = -113.0
+offset_right = 155.5
+offset_bottom = 115.0
+grow_horizontal = 2
+grow_vertical = 2
+tooltip_text = "Sacrifice the Potato
+"
+tooltip_auto_translate_mode = 1
+text = "Sacrifice the Potato
+Or Proceed"
+
+[node name="SadPotato" type="Sprite2D" parent="."]
+position = Vector2(245, 315)
+scale = Vector2(1, 1.0071429)
+texture = ExtResource("2_qn1rc")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
